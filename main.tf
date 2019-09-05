@@ -18,6 +18,3 @@ resource "aws_instance" "hello-tf-instance" {
   )
 }
 
-terraform {
-	required_version = " 0.12.2"
-}
